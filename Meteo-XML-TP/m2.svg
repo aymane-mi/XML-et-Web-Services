@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480">
+   <svg:style>
+                
+          .bar { fill: steelblue; }
+          .label { font-family: Arial; font-size: 12px; text-anchor:middle; }
+          .axis { font-family: Arial; font-size: 12px; text-anchor:end; }
+        
+            </svg:style>
+   <svg:line x1="80" y1="50" x2="80" y2="400" stroke="black"/>
+   <svg:line x1="80" y1="400" x2="900" y2="400" stroke="black"/>
+   <svg:text class="axis" x="70" y="404">0°C
+                    </svg:text>
+   <svg:line x1="80" y1="400" x2="900" y2="400" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="400" x2="80" y2="400" stroke="black"/>
+   <svg:text class="axis" x="70" y="374">5°C
+                    </svg:text>
+   <svg:line x1="80" y1="370" x2="900" y2="370" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="370" x2="80" y2="370" stroke="black"/>
+   <svg:text class="axis" x="70" y="344">10°C
+                    </svg:text>
+   <svg:line x1="80" y1="340" x2="900" y2="340" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="340" x2="80" y2="340" stroke="black"/>
+   <svg:text class="axis" x="70" y="314">15°C
+                    </svg:text>
+   <svg:line x1="80" y1="310" x2="900" y2="310" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="310" x2="80" y2="310" stroke="black"/>
+   <svg:text class="axis" x="70" y="284">20°C
+                    </svg:text>
+   <svg:line x1="80" y1="280" x2="900" y2="280" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="280" x2="80" y2="280" stroke="black"/>
+   <svg:text class="axis" x="70" y="254">25°C
+                    </svg:text>
+   <svg:line x1="80" y1="250" x2="900" y2="250" stroke="#e0e0e0" stroke-dasharray="3,3"/>
+   <svg:line x1="74" y1="250" x2="80" y2="250" stroke="black"/>
+   <svg:g>
+      <svg:rect class="bar" x="80" y="268" width="60" height="132">
+         <svg:animate attributeName="height" from="132" to="126" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="268" to="274" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="110" y="422">Casa</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="160" y="280" width="60" height="120">
+         <svg:animate attributeName="height" from="120" to="138" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="280" to="262" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="190" y="422">Rabat</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="240" y="292" width="60" height="108">
+         <svg:animate attributeName="height" from="108" to="114" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="292" to="286" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="270" y="422">Fes</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="320" y="286" width="60" height="114">
+         <svg:animate attributeName="height" from="114" to="120" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="286" to="280" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="350" y="422">Oujda</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="400" y="250" width="60" height="150">
+         <svg:animate attributeName="height" from="150" to="138" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="250" to="262" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="430" y="422">Tanger</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="480" y="232" width="60" height="168">
+         <svg:animate attributeName="height" from="168" to="162" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="232" to="238" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="510" y="422">Marrakech</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="560" y="226" width="60" height="174">
+         <svg:animate attributeName="height" from="174" to="150" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="226" to="250" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="590" y="422">Ouarzazat</svg:text>
+   </svg:g>
+   <svg:g>
+      <svg:rect class="bar" x="640" y="280" width="60" height="120">
+         <svg:animate attributeName="height" from="120" to="138" dur="3s" repeatCount="indefinite"/>
+         <svg:animate attributeName="y" from="280" to="262" dur="3s" repeatCount="indefinite"/>
+      </svg:rect>
+      <svg:text class="label" x="670" y="422">Agadir</svg:text>
+   </svg:g>
+   <svg:text x="490" y="30" font-size="18" text-anchor="middle" font-family="Arial">
+                Histogramme animé des températures
+            </svg:text>
+   <svg:text x="80" y="70" font-size="12" font-family="Arial">
+                Date 1 : 2006-1-1 — Date 2 : 2006-1-2</svg:text>
+</svg:svg>
